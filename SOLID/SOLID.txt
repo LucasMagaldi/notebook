@@ -1,0 +1,2 @@
+SOLID: Acrônimo para 5 princípios para o design de software orientado a objetos, visando melhorar a legibilidade, flexibilidade e manutenção do código. Idealizados por Robert C. Martin (Uncle Bob).
+

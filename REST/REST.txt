@@ -1,0 +1,13 @@
+REST: Representational State Transfer, é uma arquitetura para a construção de APIS que usa o protocolo HTTP na comunicação entre serviços.
+Uma REST API (Application Programming Interface) é uma interface que usa o padrão REST para permitir que diferentes sistemas se comuniquem entre si.
+
+Princípios REST
+
+	1. Stateless: Cada requisição do cliente para o servidor deve conter todas as informações necessárias para entender e processar a solicitação. O servidor não deve armazenar o estado do cliente entre as requisições.
+	2. Client-Server : A separação entre cliente-servidor permite que ambos evoluam de forma independente. O cliente lida com a interface do usuário e a experiencia, enquanto que o servidor lida com o processamento e armazenamento de dados.
+	3. Resource-based: Os recursos (usuários, produtos, etc.) são identificados por URLs. Cada recurso é representado por uma URL única. API voltada à recursos.
+	4. Representations: Os recursos podem ser representados em vários formatos. JSON, XML, HTML. O cliente interage com o servidor por meio dessas representações.
+	5. Uniform Interface: Princípio que define que a  forma como os recursos são acessados e manipulados deve ser consistente e uniforme. A interação com os recursos da API deve seguir um conjunto padrão de regras e práticas, para garantir o entendimento de maneira simples e fácil.
+a. os recursos devem ser identificados de forma clara através da URL
+b. manipulação de recursos através de representações
+c. a API deverá usar um conjunto padronizado de métodos http para interagir com os recursos

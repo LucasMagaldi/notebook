@@ -1,0 +1,14 @@
+CommonJS - ECMAScript:
+
+NodeJS ecossystem was build on top of CommonJS, due to historical and technical reassons.
+
+	1. Javascript maturation status:
+* At that time there was no Javascript running on server side, or pratically non-existent Javascript code on APIs. The main usage of Javascript was located on browsers and the support to native modules dind't exist.
+* Lack of support to native modules: ECMAScript didn't have na default native modules system. It was lauched in 2015 on ES6.
+
+	2. CommonJS foi proposto como uma solução para a falta de um sistema padrão de módulos e se tornou uma das especificações mais populares para definir módulos fora do navegador. Através do required  e module.exports, fornece uma alternativa simples e eficaz para a modularização do código Javascript.
+* O CommonJS foi projetado com o objetivo de fazer o Javascript funcionar em ambientes fora do navegador. Como o NodeJS foi criado para executar o Javascript fora do servidor, o CommonJS surgiu como uma excelente opção.
+
+	3. Síncrono por natureza: O carregamento síncrono de módulos no CommonJS, era adequado para o ambiente de execução do Nodejs, onde o código é frequentemente executado de maneira simples e linear.
+
+NPM, lançado pouco tempo depois do Nodejs, adotou o CommonJS como padrão.
